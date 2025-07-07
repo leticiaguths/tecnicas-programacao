@@ -13,7 +13,7 @@ public class Frutaria {
 		do {
 		opcaoMenu = atendente.menuPrincipal();		
 		estoque.gerenciarEstoque(opcaoMenu, atendente);
-		} while (opcaoMenu != 4);
+		} while (opcaoMenu != 7);
 		
 	}
 }
